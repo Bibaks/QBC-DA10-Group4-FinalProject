@@ -1,0 +1,44 @@
+{
+    "models": {
+        "RF_Feature_Engineering": {
+            "test_accuracy": 0.7014853083629319,
+            "train_accuracy": 1.0,
+            "precision": 0.6692983129886092,
+            "recall": 0.7014853083629319,
+            "f1_score": 0.6557325408004713,
+            "file": "saved_models/rf_feature_engineering_70.15.pkl"
+        },
+        "XGBoost_Best_Tuned": {
+            "test_accuracy": 0.6846948659993543,
+            "train_accuracy": 0.7696685908045049,
+            "cv_mean": 0.690106265228396,
+            "cv_std": 0.005647718970856492,
+            "overfitting_gap": 0.08497372480515064,
+            "file": "saved_models/xgb_best_tuned_69.93.pkl",
+            "hyperparameters": {
+                "colsample_bytree": 0.8,
+                "gamma": 0,
+                "learning_rate": 0.05,
+                "max_depth": 7,
+                "min_child_weight": 5,
+                "n_estimators": 200,
+                "subsample": 0.8
+            }
+        },
+        "RF_Best_Tuned": {
+            "test_accuracy": 0.6947045527930255,
+            "train_accuracy": 0.8537520687845639,
+            "cv_mean": 0.6935374201483109,
+            "cv_std": 0.0041865437299684555,
+            "overfitting_gap": 0.15904751599153844,
+            "file": "saved_models/rf_best_tuned_69.47.pkl",
+            "hyperparameters": {
+                "max_depth": 18,
+                "max_features": "sqrt",
+                "min_samples_leaf": 2,
+                "min_samples_split": 5,
+                "n_estimators": 150
+            }
+        }
+    }
+}
