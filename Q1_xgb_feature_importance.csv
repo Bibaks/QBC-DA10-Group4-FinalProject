@@ -1,0 +1,11 @@
+Rank,Feature,XGBoost Importance (%)
+1,Discount,41.8
+2,Sales,7.4
+3,Sub-Category_Tables,4.9
+4,Sub-Category_Storage,3.6
+5,Category_Office_Supplies,3.3
+6,Sub-Category_Phones,3.3
+7,Sub-Category_Paper,3.1
+8,Shipping_Cost,2.9
+9,Sub-Category_Copiers,2.9
+10,Sub-Category_Binders,2.7
