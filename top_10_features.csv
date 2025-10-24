@@ -1,0 +1,11 @@
+Rank,Feature,RF Importance (%),XGBoost Importance (%),Average Importance (%)
+1,Shipping_Cost_Ratio,27.34,10.84,19.09
+2,Order Priority,13.75,21.5,17.62
+3,Sum of Shipping Cost,5.42,3.05,4.24
+4,Log_Sales,3.05,3.31,3.18
+5,Sum of Sales,3.06,3.21,3.14
+6,Sales_Squared,2.99,3.22,3.11
+7,Avg_Price_Per_Unit,3.42,2.5,2.96
+8,Total_Cost,3.14,2.54,2.84
+9,Sales_Quantity,3.19,2.46,2.83
+10,Profit_Margin,3.14,2.45,2.79
